@@ -1,0 +1,74 @@
+@media screen and (max-width:1400px){
+    .section-02{
+        height: fit-content;
+    }
+    .section-02{
+        padding-bottom: 20px;
+    }
+    footer{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    header{
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-01-container{
+        height: 80vh;
+        background-color:  #12171B;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section-01 .section-01-container > img{
+        width: 60%;
+    }
+    .section-01 .leave{
+        height: 20%;
+    }
+    footer{
+        height: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }    
+    .footer-section-01{
+    align-items: center;
+}
+}
+
+@media screen and (max-width: 580px) {
+    header{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .left-nav, .right-nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .section-01-container{
+        height: fit-content;
+        padding: 20px 0;
+        height: 90vh;
+    }
+}
+@media screen and (max-width:350px) {
+    .section-02 .section-02-container{
+        width: 90%;
+    }
+    .choose-btns{
+        margin-bottom: 10px;
+        flex-direction: column;
+        width: 60%;
+        gap: 10px;
+    }
+}
